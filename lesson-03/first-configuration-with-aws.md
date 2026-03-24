@@ -24,6 +24,8 @@ In this lab you will create a basic instance on AWS. You will need an AWS accoun
 
 > Be sure to have a working VPC and subnet. If you are working in a different region, be sure to create the VPC and subnet within your region.
 
+> AND! AWS changed their free tier options. If you created your AWS account after July 15th, 2025, then you should change the instance type to `t3.micro` in order to take advantage of free tier hours. 
+
 - Verify the infrastructure at the AWS console.
 - Analyze the "state" file. This is called "terraform.tfstate".
 - Destroy the infrastructure with the `terraform destroy` command.
